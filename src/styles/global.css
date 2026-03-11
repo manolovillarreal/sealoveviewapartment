@@ -282,7 +282,7 @@ nav.scrolled .nav-hamburger span {
 }
 
 .trust-item::before {
-  content: 'Ã¢Å“â€œ';
+  content: '✓';
   color: var(--sea-light);
   font-size: 0.85rem;
 }
