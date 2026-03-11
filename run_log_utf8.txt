@@ -1,0 +1,207 @@
+﻿build	Set up job	∩╗┐2026-03-11T04:36:50.3473041Z Current runner version: '2.332.0'
+build	Set up job	2026-03-11T04:36:50.3501113Z ##[group]Runner Image Provisioner
+build	Set up job	2026-03-11T04:36:50.3502054Z Hosted Compute Agent
+build	Set up job	2026-03-11T04:36:50.3502717Z Version: 20260213.493
+build	Set up job	2026-03-11T04:36:50.3503404Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+build	Set up job	2026-03-11T04:36:50.3504088Z Build Date: 2026-02-13T00:28:41Z
+build	Set up job	2026-03-11T04:36:50.3504813Z Worker ID: {92da0fed-232e-4e31-bb13-a066502494f8}
+build	Set up job	2026-03-11T04:36:50.3505720Z Azure Region: westus
+build	Set up job	2026-03-11T04:36:50.3506290Z ##[endgroup]
+build	Set up job	2026-03-11T04:36:50.3507716Z ##[group]Operating System
+build	Set up job	2026-03-11T04:36:50.3508513Z Ubuntu
+build	Set up job	2026-03-11T04:36:50.3508973Z 24.04.3
+build	Set up job	2026-03-11T04:36:50.3509441Z LTS
+build	Set up job	2026-03-11T04:36:50.3509956Z ##[endgroup]
+build	Set up job	2026-03-11T04:36:50.3510483Z ##[group]Runner Image
+build	Set up job	2026-03-11T04:36:50.3511023Z Image: ubuntu-24.04
+build	Set up job	2026-03-11T04:36:50.3511622Z Version: 20260302.42.1
+build	Set up job	2026-03-11T04:36:50.3512627Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2026-03-11T04:36:50.3514353Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+build	Set up job	2026-03-11T04:36:50.3515439Z ##[endgroup]
+build	Set up job	2026-03-11T04:36:50.3516648Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2026-03-11T04:36:50.3518523Z Contents: read
+build	Set up job	2026-03-11T04:36:50.3519130Z Metadata: read
+build	Set up job	2026-03-11T04:36:50.3519693Z Pages: write
+build	Set up job	2026-03-11T04:36:50.3520238Z ##[endgroup]
+build	Set up job	2026-03-11T04:36:50.3522503Z Secret source: Actions
+build	Set up job	2026-03-11T04:36:50.3523362Z Prepare workflow directory
+build	Set up job	2026-03-11T04:36:50.3860644Z Prepare all required actions
+build	Set up job	2026-03-11T04:36:50.3899283Z Getting action download info
+build	Set up job	2026-03-11T04:36:50.9273034Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+build	Set up job	2026-03-11T04:36:51.0718024Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+build	Set up job	2026-03-11T04:36:51.2359677Z Download action repository 'actions/configure-pages@v5' (SHA:983d7736d9b0ae728b81ab479565c72886d7745b)
+build	Set up job	2026-03-11T04:36:51.7610547Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+build	Set up job	2026-03-11T04:36:52.2711581Z Getting action download info
+build	Set up job	2026-03-11T04:36:52.4496433Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	Set up job	2026-03-11T04:36:52.6862828Z Complete job name: build
+build	Checkout	∩╗┐2026-03-11T04:36:52.7606966Z ##[group]Run actions/checkout@v4
+build	Checkout	2026-03-11T04:36:52.7607709Z with:
+build	Checkout	2026-03-11T04:36:52.7608057Z   repository: manolovillarreal/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:52.7608704Z   token: ***
+build	Checkout	2026-03-11T04:36:52.7608968Z   ssh-strict: true
+build	Checkout	2026-03-11T04:36:52.7609234Z   ssh-user: git
+build	Checkout	2026-03-11T04:36:52.7609509Z   persist-credentials: true
+build	Checkout	2026-03-11T04:36:52.7609815Z   clean: true
+build	Checkout	2026-03-11T04:36:52.7610088Z   sparse-checkout-cone-mode: true
+build	Checkout	2026-03-11T04:36:52.7610424Z   fetch-depth: 1
+build	Checkout	2026-03-11T04:36:52.7610681Z   fetch-tags: false
+build	Checkout	2026-03-11T04:36:52.7610955Z   show-progress: true
+build	Checkout	2026-03-11T04:36:52.7611239Z   lfs: false
+build	Checkout	2026-03-11T04:36:52.7611508Z   submodules: false
+build	Checkout	2026-03-11T04:36:52.7611786Z   set-safe-directory: true
+build	Checkout	2026-03-11T04:36:52.7612557Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:52.8725613Z Syncing repository: manolovillarreal/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:52.8727274Z ##[group]Getting Git version info
+build	Checkout	2026-03-11T04:36:52.8727901Z Working directory is '/home/runner/work/sealoveviewapartment/sealoveviewapartment'
+build	Checkout	2026-03-11T04:36:52.8729351Z [command]/usr/bin/git version
+build	Checkout	2026-03-11T04:36:52.8806091Z git version 2.53.0
+build	Checkout	2026-03-11T04:36:52.8833644Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:52.8857561Z Temporarily overriding HOME='/home/runner/work/_temp/1231d3e7-b97c-49a3-8f60-794f157a1755' before making global git config changes
+build	Checkout	2026-03-11T04:36:52.8858585Z Adding repository directory to the temporary git global config as a safe directory
+build	Checkout	2026-03-11T04:36:52.8863749Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sealoveviewapartment/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:52.8906073Z Deleting the contents of '/home/runner/work/sealoveviewapartment/sealoveviewapartment'
+build	Checkout	2026-03-11T04:36:52.8910046Z ##[group]Initializing the repository
+build	Checkout	2026-03-11T04:36:52.8914759Z [command]/usr/bin/git init /home/runner/work/sealoveviewapartment/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:52.9032021Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Checkout	2026-03-11T04:36:52.9032798Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	Checkout	2026-03-11T04:36:52.9033843Z hint: to use in all of your new repositories, which will suppress this warning,
+build	Checkout	2026-03-11T04:36:52.9034714Z hint: call:
+build	Checkout	2026-03-11T04:36:52.9035370Z hint:
+build	Checkout	2026-03-11T04:36:52.9036403Z hint: 	git config --global init.defaultBranch <name>
+build	Checkout	2026-03-11T04:36:52.9037084Z hint:
+build	Checkout	2026-03-11T04:36:52.9037713Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Checkout	2026-03-11T04:36:52.9038796Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Checkout	2026-03-11T04:36:52.9039364Z hint:
+build	Checkout	2026-03-11T04:36:52.9039688Z hint: 	git branch -m <name>
+build	Checkout	2026-03-11T04:36:52.9040005Z hint:
+build	Checkout	2026-03-11T04:36:52.9040421Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Checkout	2026-03-11T04:36:52.9041206Z Initialized empty Git repository in /home/runner/work/sealoveviewapartment/sealoveviewapartment/.git/
+build	Checkout	2026-03-11T04:36:52.9049698Z [command]/usr/bin/git remote add origin https://github.com/manolovillarreal/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:52.9115470Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:52.9116105Z ##[group]Disabling automatic garbage collection
+build	Checkout	2026-03-11T04:36:52.9120050Z [command]/usr/bin/git config --local gc.auto 0
+build	Checkout	2026-03-11T04:36:52.9151541Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:52.9152094Z ##[group]Setting up auth
+build	Checkout	2026-03-11T04:36:52.9158949Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Checkout	2026-03-11T04:36:52.9191941Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Checkout	2026-03-11T04:36:52.9570093Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Checkout	2026-03-11T04:36:52.9605626Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Checkout	2026-03-11T04:36:52.9857074Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Checkout	2026-03-11T04:36:52.9894394Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Checkout	2026-03-11T04:36:53.0139690Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Checkout	2026-03-11T04:36:53.0179242Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:53.0180302Z ##[group]Fetching the repository
+build	Checkout	2026-03-11T04:36:53.0189523Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5f0f46e469c5b7f5e63b4fe39f88f0850fa16004:refs/remotes/origin/master
+build	Checkout	2026-03-11T04:36:54.9854065Z From https://github.com/manolovillarreal/sealoveviewapartment
+build	Checkout	2026-03-11T04:36:54.9855427Z  * [new ref]         5f0f46e469c5b7f5e63b4fe39f88f0850fa16004 -> origin/master
+build	Checkout	2026-03-11T04:36:54.9894882Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:54.9895853Z ##[group]Determining the checkout info
+build	Checkout	2026-03-11T04:36:54.9902470Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:54.9904536Z [command]/usr/bin/git sparse-checkout disable
+build	Checkout	2026-03-11T04:36:54.9952062Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Checkout	2026-03-11T04:36:54.9981999Z ##[group]Checking out the ref
+build	Checkout	2026-03-11T04:36:54.9986733Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+build	Checkout	2026-03-11T04:36:55.9835850Z Reset branch 'master'
+build	Checkout	2026-03-11T04:36:55.9836534Z branch 'master' set up to track 'origin/master'.
+build	Checkout	2026-03-11T04:36:55.9868155Z ##[endgroup]
+build	Checkout	2026-03-11T04:36:55.9916258Z [command]/usr/bin/git log -1 --format=%H
+build	Checkout	2026-03-11T04:36:55.9945424Z 5f0f46e469c5b7f5e63b4fe39f88f0850fa16004
+build	Setup Node	∩╗┐2026-03-11T04:36:56.0192225Z ##[group]Run actions/setup-node@v4
+build	Setup Node	2026-03-11T04:36:56.0192562Z with:
+build	Setup Node	2026-03-11T04:36:56.0192733Z   node-version: 20
+build	Setup Node	2026-03-11T04:36:56.0192920Z   cache: npm
+build	Setup Node	2026-03-11T04:36:56.0193089Z   always-auth: false
+build	Setup Node	2026-03-11T04:36:56.0193291Z   check-latest: false
+build	Setup Node	2026-03-11T04:36:56.0193623Z   token: ***
+build	Setup Node	2026-03-11T04:36:56.0193803Z ##[endgroup]
+build	Setup Node	2026-03-11T04:36:56.2078863Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+build	Setup Node	2026-03-11T04:36:56.2086880Z ##[group]Environment details
+build	Setup Node	2026-03-11T04:36:58.7670733Z node: v20.20.0
+build	Setup Node	2026-03-11T04:36:58.7671230Z npm: 10.8.2
+build	Setup Node	2026-03-11T04:36:58.7671515Z yarn: 1.22.22
+build	Setup Node	2026-03-11T04:36:58.7677031Z ##[endgroup]
+build	Setup Node	2026-03-11T04:36:58.7702488Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+build	Setup Node	2026-03-11T04:36:59.1262063Z /home/runner/.npm
+build	Setup Node	2026-03-11T04:36:59.4262396Z npm cache is not found
+build	Install dependencies	∩╗┐2026-03-11T04:36:59.4365496Z ##[group]Run npm ci
+build	Install dependencies	2026-03-11T04:36:59.4365798Z [36;1mnpm ci[0m
+build	Install dependencies	2026-03-11T04:36:59.4447520Z shell: /usr/bin/bash -e {0}
+build	Install dependencies	2026-03-11T04:36:59.4447777Z ##[endgroup]
+build	Install dependencies	2026-03-11T04:37:06.4514546Z 
+build	Install dependencies	2026-03-11T04:37:06.4523135Z added 305 packages, and audited 306 packages in 7s
+build	Install dependencies	2026-03-11T04:37:06.4523627Z 
+build	Install dependencies	2026-03-11T04:37:06.4523908Z 157 packages are looking for funding
+build	Install dependencies	2026-03-11T04:37:06.4524420Z   run `npm fund` for details
+build	Install dependencies	2026-03-11T04:37:06.4528229Z 
+build	Install dependencies	2026-03-11T04:37:06.4528464Z found 0 vulnerabilities
+build	Build with Astro	∩╗┐2026-03-11T04:37:06.4773703Z ##[group]Run npm run build
+build	Build with Astro	2026-03-11T04:37:06.4773981Z [36;1mnpm run build[0m
+build	Build with Astro	2026-03-11T04:37:06.4825846Z shell: /usr/bin/bash -e {0}
+build	Build with Astro	2026-03-11T04:37:06.4826089Z ##[endgroup]
+build	Build with Astro	2026-03-11T04:37:06.6105292Z 
+build	Build with Astro	2026-03-11T04:37:06.6106041Z > sealoveview-astro@1.0.0 build
+build	Build with Astro	2026-03-11T04:37:06.6106521Z > astro build
+build	Build with Astro	2026-03-11T04:37:06.6106739Z 
+build	Build with Astro	2026-03-11T04:37:08.1768736Z [2m04:37:08[22m [34m[content][39m Syncing content
+build	Build with Astro	2026-03-11T04:37:08.1802827Z [2m04:37:08[22m [34m[content][39m Synced content
+build	Build with Astro	2026-03-11T04:37:08.1809881Z [2m04:37:08[22m [34m[types][39m Generated [2m104ms[22m
+build	Build with Astro	2026-03-11T04:37:08.1812710Z [2m04:37:08[22m [34m[build][39m output: [34m"static"[39m
+build	Build with Astro	2026-03-11T04:37:08.1813755Z [2m04:37:08[22m [34m[build][39m mode: [34m"static"[39m
+build	Build with Astro	2026-03-11T04:37:08.1815291Z [2m04:37:08[22m [34m[build][39m directory: [34m/home/runner/work/sealoveviewapartment/sealoveviewapartment/dist/[39m
+build	Build with Astro	2026-03-11T04:37:08.1819141Z [2m04:37:08[22m [34m[build][39m Collecting build info...
+build	Build with Astro	2026-03-11T04:37:08.1820329Z [2m04:37:08[22m [34m[build][39m [32mΓ£ô Completed in 128ms.[39m
+build	Build with Astro	2026-03-11T04:37:08.1860553Z [2m04:37:08[22m [34m[build][39m Building static entrypoints...
+build	Build with Astro	2026-03-11T04:37:09.0917187Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0923392Z ../img/sala_1.jpeg referenced in ../img/sala_1.jpeg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0929354Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0935240Z ../img/img_sala.png referenced in ../img/img_sala.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0940393Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0943980Z ../img/comedor_zoom.jpeg referenced in ../img/comedor_zoom.jpeg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0949932Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0951266Z ../img/estar_lectura.jpeg referenced in ../img/estar_lectura.jpeg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0952517Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0953743Z ../img/img_hosts.png referenced in ../img/img_hosts.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0954890Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0956347Z ../img/img_jotaart.jpg referenced in ../img/img_jotaart.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0957984Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0959202Z ../img/jotaart.png referenced in ../img/jotaart.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.0960332Z [33m[1m04:37:09[22m [WARN] [vite][39m 
+build	Build with Astro	2026-03-11T04:37:09.0961776Z ../img/habitacion_principal.jpeg referenced in ../img/habitacion_principal.jpeg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+build	Build with Astro	2026-03-11T04:37:09.3296301Z [2m04:37:09[22m [34m[vite][39m [32mΓ£ô built in 1.10s[39m
+build	Build with Astro	2026-03-11T04:37:09.3297260Z [2m04:37:09[22m [34m[build][39m [32mΓ£ô Completed in 1.14s.[39m
+build	Build with Astro	2026-03-11T04:37:09.3300608Z 
+build	Build with Astro	2026-03-11T04:37:09.3301125Z [42m[30m building client (vite) [39m[49m
+build	Build with Astro	2026-03-11T04:37:09.3388743Z [2m04:37:09[22m [34m[vite][39m transforming...
+build	Build with Astro	2026-03-11T04:37:09.3434636Z [2m04:37:09[22m [34m[vite][39m [32mΓ£ô[39m 2 modules transformed.
+build	Build with Astro	2026-03-11T04:37:09.3470040Z [2m04:37:09[22m [34m[vite][39m rendering chunks...
+build	Build with Astro	2026-03-11T04:37:09.3481511Z [2m04:37:09[22m [34m[vite][39m [32mΓ£ô built in 14ms[39m
+build	Build with Astro	2026-03-11T04:37:09.3537910Z 
+build	Build with Astro	2026-03-11T04:37:09.3538664Z [42m[30m generating static routes [39m[49m
+build	Build with Astro	2026-03-11T04:37:09.3591547Z [2m04:37:09[22m [32mΓû╢[39m src/pages/index.astro
+build	Build with Astro	2026-03-11T04:37:09.3679939Z [2m04:37:09[22m   [34mΓööΓöÇ[39m [2m/index.html[22m [2m(+9ms)[22m 
+build	Build with Astro	2026-03-11T04:37:09.3681113Z [2m04:37:09[22m [32mΓ£ô Completed in 15ms.
+build	Build with Astro	2026-03-11T04:37:09.3681551Z [39m
+build	Build with Astro	2026-03-11T04:37:09.3709408Z [2m04:37:09[22m [34m[build][39m 1 page(s) built in [1m1.32s[22m
+build	Build with Astro	2026-03-11T04:37:09.3712806Z [2m04:37:09[22m [34m[build][39m [1mComplete![22m
+build	Setup Pages	∩╗┐2026-03-11T04:37:09.3974322Z ##[group]Run actions/configure-pages@v5
+build	Setup Pages	2026-03-11T04:37:09.3974615Z with:
+build	Setup Pages	2026-03-11T04:37:09.3974908Z   token: ***
+build	Setup Pages	2026-03-11T04:37:09.3975381Z   enablement: false
+build	Setup Pages	2026-03-11T04:37:09.3975612Z ##[endgroup]
+build	Setup Pages	2026-03-11T04:37:09.8555595Z ##[error]Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+build	Setup Pages	2026-03-11T04:37:09.8564919Z ##[error]HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+build	Post Checkout	∩╗┐2026-03-11T04:37:09.8681095Z Post job cleanup.
+build	Post Checkout	2026-03-11T04:37:09.9656262Z [command]/usr/bin/git version
+build	Post Checkout	2026-03-11T04:37:09.9695335Z git version 2.53.0
+build	Post Checkout	2026-03-11T04:37:09.9740186Z Temporarily overriding HOME='/home/runner/work/_temp/6ac25c0f-eb31-425c-aea9-b50fb9d43da5' before making global git config changes
+build	Post Checkout	2026-03-11T04:37:09.9741202Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Checkout	2026-03-11T04:37:09.9753770Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sealoveviewapartment/sealoveviewapartment
+build	Post Checkout	2026-03-11T04:37:09.9789336Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Checkout	2026-03-11T04:37:09.9823200Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Checkout	2026-03-11T04:37:10.0089327Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Checkout	2026-03-11T04:37:10.0113059Z http.https://github.com/.extraheader
+build	Post Checkout	2026-03-11T04:37:10.0128426Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Checkout	2026-03-11T04:37:10.0161190Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Post Checkout	2026-03-11T04:37:10.0415460Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Post Checkout	2026-03-11T04:37:10.0450586Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Complete job	∩╗┐2026-03-11T04:37:10.0823882Z Cleaning up orphan processes
