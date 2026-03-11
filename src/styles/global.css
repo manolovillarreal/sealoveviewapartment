@@ -1,4 +1,4 @@
-/* â”€â”€â”€ VARIABLES â”€â”€â”€ */
+﻿/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ VARIABLES Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 :root {
   --sea: #0a9396;
   --sea-light: #94d2bd;
@@ -13,7 +13,7 @@
   --border: rgba(10, 147, 150, 0.15);
 }
 
-/* â”€â”€â”€ RESET & BASE â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ RESET & BASE Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 *,
 *::before,
 *::after {
@@ -40,7 +40,7 @@ h3 {
   font-weight: 300;
 }
 
-/* â”€â”€â”€ NAV â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ NAV Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 nav {
   position: fixed;
   top: 0;
@@ -131,7 +131,7 @@ nav.scrolled .nav-hamburger span {
   background: var(--ink);
 }
 
-/* â”€â”€â”€ HERO â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ HERO Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #hero {
   height: 100vh;
   min-height: 600px;
@@ -147,7 +147,7 @@ nav.scrolled .nav-hamburger span {
   inset: 0;
   background:
     linear-gradient(160deg, rgba(0, 95, 115, 0.7) 0%, rgba(0, 0, 0, 0.35) 60%, rgba(238, 108, 77, 0.25) 100%),
-    url('/img/sala_1.jpeg') center/cover no-repeat;
+    url('/sealoveviewapartment/img/sala_1.jpeg') center/cover no-repeat;
   transform: scale(1.03);
   transition: transform 8s ease;
 }
@@ -282,7 +282,7 @@ nav.scrolled .nav-hamburger span {
 }
 
 .trust-item::before {
-  content: 'âœ“';
+  content: 'Ã¢Å“â€œ';
   color: var(--sea-light);
   font-size: 0.85rem;
 }
@@ -309,7 +309,7 @@ nav.scrolled .nav-hamburger span {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
 }
 
-/* â”€â”€â”€ SECTIONS SHARED â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ SECTIONS SHARED Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 section {
   padding: 90px 0;
 }
@@ -371,7 +371,7 @@ section {
   transform: translateY(0);
 }
 
-/* â”€â”€â”€ OVERVIEW â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ OVERVIEW Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #overview {
   background: var(--sand);
 }
@@ -395,7 +395,7 @@ section {
   right: 40px;
   bottom: 50px;
   border-radius: 2px;
-  background: url('/img/img_sala.png') center/cover;
+  background: url('/sealoveviewapartment/img/img_sala.png') center/cover;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
@@ -407,7 +407,7 @@ section {
   height: 56%;
   border-radius: 2px;
   /* Updated placeholders since we converted generic names */
-  background: url('/img/sala_1.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/sala_1.jpeg') center/cover;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
   border: 5px solid var(--sand);
 }
@@ -466,7 +466,7 @@ section {
   color: var(--muted);
 }
 
-/* â”€â”€â”€ ROOMS â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ ROOMS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #rooms {
   background: var(--white);
 }
@@ -534,13 +534,13 @@ section {
 }
 
 .amenity-list li::before {
-  content: '·';
+  content: 'Â·';
   color: var(--sea);
   font-size: 1.4rem;
   line-height: 0;
 }
 
-/* â”€â”€â”€ KITCHEN â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ KITCHEN Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #kitchen {
   background: linear-gradient(135deg, var(--sea-deep) 0%, var(--sea) 60%, var(--sea-light) 100%);
   color: var(--white);
@@ -592,7 +592,7 @@ section {
   opacity: 0.85;
 }
 
-/* â”€â”€â”€ LIVING / VIEWS â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ LIVING / VIEWS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #living {
   background: var(--sand);
 }
@@ -619,15 +619,15 @@ section {
 .living-img:first-child {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
-  background: url('/img/comedor_zoom.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/comedor_zoom.jpeg') center/cover;
 }
 
 .living-img:nth-child(2) {
-  background: url('/img/estar_lectura.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/estar_lectura.jpeg') center/cover;
 }
 
 .living-img:nth-child(3) {
-  background: url('/img/sala_1.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/sala_1.jpeg') center/cover;
 }
 
 .quote-block {
@@ -646,7 +646,7 @@ section {
   color: var(--sea-deep);
 }
 
-/* â”€â”€â”€ GALLERY â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ GALLERY Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #gallery {
   background: var(--white);
 }
@@ -725,7 +725,7 @@ section {
   color: var(--coral-light);
 }
 
-/* â”€â”€â”€ ACTIVITIES â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ ACTIVITIES Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #activities {
   background: var(--sand);
 }
@@ -773,7 +773,7 @@ section {
   font-weight: 500;
 }
 
-/* â”€â”€â”€ RESTAURANTS â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ RESTAURANTS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #restaurants {
   background: var(--sand);
 }
@@ -824,7 +824,7 @@ section {
   text-decoration: none;
 }
 
-/* â”€â”€â”€ HOSTS â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ HOSTS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #hosts {
   background: var(--white);
 }
@@ -846,7 +846,7 @@ section {
   border-radius: 12px;
   /* Missing hosts photo in source files, keeping placeholder if it wasn't there, 
      but adding a style placeholder based on what previously existed */
-  background: url('/img/img_hosts.png') center top/cover;
+  background: url('/sealoveviewapartment/img/img_hosts.png') center top/cover;
   /* Assume it exists or needs to be added later */
 }
 
@@ -899,9 +899,9 @@ section {
   color: var(--sea-deep);
 }
 
-/* â”€â”€â”€ JOTA ART â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ JOTA ART Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #jota {
-  background: linear-gradient(rgba(26, 26, 46, 0.88), rgba(26, 26, 46, 0.95)), url('/img/img_jotaart.jpg') center/cover;
+  background: linear-gradient(rgba(26, 26, 46, 0.88), rgba(26, 26, 46, 0.95)), url('/sealoveviewapartment/img/img_jotaart.jpg') center/cover;
   color: var(--white);
 }
 
@@ -951,21 +951,21 @@ section {
 }
 
 .jota-mural:nth-child(1) {
-  background: url('/img/jotaart.png') center/cover;
+  background: url('/sealoveviewapartment/img/jotaart.png') center/cover;
 }
 
 /* Missing file placeholder */
 .jota-mural:nth-child(2) {
-  background: url('/img/jotaart.png') 30% center/cover;
+  background: url('/sealoveviewapartment/img/jotaart.png') 30% center/cover;
   margin-top: 32px;
 }
 
 .jota-mural:nth-child(3) {
-  background: url('/img/sala_1.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/sala_1.jpeg') center/cover;
 }
 
 .jota-mural:nth-child(4) {
-  background: url('/img/habitacion_principal.jpeg') center/cover;
+  background: url('/sealoveviewapartment/img/habitacion_principal.jpeg') center/cover;
   margin-top: -32px;
 }
 
@@ -1009,7 +1009,7 @@ section {
   border-color: rgba(255, 255, 255, 0.45);
 }
 
-/* â”€â”€â”€ BOOKING â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ BOOKING Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #booking {
   background: var(--sand);
 }
@@ -1170,7 +1170,7 @@ section {
   transform: translateY(-1px);
 }
 
-/* â”€â”€â”€ FAQ â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ FAQ Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #faq {
   background: var(--white);
 }
@@ -1206,7 +1206,7 @@ section {
   line-height: 1.7;
 }
 
-/* â”€â”€â”€ CONTACT / MAP â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ CONTACT / MAP Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 #contact {
   background: var(--sand);
 }
@@ -1291,7 +1291,7 @@ section {
   font-size: 1.4rem;
 }
 
-/* â”€â”€â”€ FOOTER â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ FOOTER Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 footer {
   background: var(--ink);
   color: rgba(255, 255, 255, 0.55);
@@ -1333,7 +1333,7 @@ footer p {
   color: var(--sea-light);
 }
 
-/* â”€â”€â”€ FLOATING WA â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ FLOATING WA Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 .wa-float {
   position: fixed;
   bottom: 28px;
@@ -1382,7 +1382,7 @@ footer p {
   opacity: 1;
 }
 
-/* â”€â”€â”€ ANIMATIONS â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ ANIMATIONS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -1419,7 +1419,7 @@ footer p {
   }
 }
 
-/* â”€â”€â”€ RESPONSIVE â”€â”€â”€ */
+/* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ RESPONSIVE Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
 @media (max-width: 900px) {
   nav {
     padding: 14px 20px;
