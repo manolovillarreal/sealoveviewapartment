@@ -4,7 +4,10 @@ interface Props {
 	description?: string;
 }
 
-const { title, description = "Apartamento con vista al mar en San AndrÃ©s Islas. Hasta 8 huÃ©spedes. Reserva por WhatsApp. UbicaciÃ³n privilegiada, vista al Caribe, piscina y mÃ¡s." } = Astro.props;
+const {
+	title,
+	description = "Apartamento con vista al mar en San Andrés Islas. Hasta 8 huéspedes. Reserva por WhatsApp. Ubicación privilegiada, vista al Caribe, piscina y más.",
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -13,7 +16,10 @@ const { title, description = "Apartamento con vista al mar en San AndrÃ©s Isla
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="keywords" content="apartamento en San AndrÃ©s, alojamiento San AndrÃ©s Colombia, apartamento con vista al mar San AndrÃ©s, alquiler apartamento San AndrÃ©s" />
+		<meta
+			name="keywords"
+			content="apartamento en San Andrés, alojamiento San Andrés Colombia, apartamento con vista al mar San Andrés, alquiler apartamento San Andrés"
+		/>
 		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -22,25 +28,34 @@ const { title, description = "Apartamento con vista al mar en San AndrÃ©s Isla
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content="https://manolovillarreal.github.io/sealoveviewapartment/img/sala_1.jpeg" />
-		
+		<meta
+			property="og:image"
+			content="https://manolovillarreal.github.io/sealoveviewapartment/img/sala_1.jpeg"
+		/>
+
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
-		<meta property="twitter:image" content="https://manolovillarreal.github.io/sealoveviewapartment/img/sala_1.jpeg" />
-		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+		<meta
+			property="twitter:image"
+			content="https://manolovillarreal.github.io/sealoveviewapartment/img/sala_1.jpeg"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<slot />
-		
+
 		<script src="../main.js"></script>
 	</body>
 </html>
 
 <style is:global>
-	@import '../styles/global.css';
+	@import "../styles/global.css";
 </style>

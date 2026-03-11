@@ -1,4 +1,4 @@
-﻿/* â”€â”€â”€ VARIABLES â”€â”€â”€ */
+/* â”€â”€â”€ VARIABLES â”€â”€â”€ */
 :root {
   --sea: #0a9396;
   --sea-light: #94d2bd;
@@ -534,7 +534,7 @@ section {
 }
 
 .amenity-list li::before {
-  content: 'Â·';
+  content: '·';
   color: var(--sea);
   font-size: 1.4rem;
   line-height: 0;
