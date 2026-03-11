@@ -1,10 +1,10 @@
----
+﻿---
 interface Props {
 	title: string;
 	description?: string;
 }
 
-const { title, description = "Apartamento con vista al mar en San Andrés Islas. Hasta 8 huéspedes. Reserva por WhatsApp. Ubicación privilegiada, vista al Caribe, piscina y más." } = Astro.props;
+const { title, description = "Apartamento con vista al mar en San AndrÃ©s Islas. Hasta 8 huÃ©spedes. Reserva por WhatsApp. UbicaciÃ³n privilegiada, vista al Caribe, piscina y mÃ¡s." } = Astro.props;
 ---
 
 <!doctype html>
@@ -13,8 +13,8 @@ const { title, description = "Apartamento con vista al mar en San Andrés Islas.
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="keywords" content="apartamento en San Andrés, alojamiento San Andrés Colombia, apartamento con vista al mar San Andrés, alquiler apartamento San Andrés" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="keywords" content="apartamento en San AndrÃ©s, alojamiento San AndrÃ©s Colombia, apartamento con vista al mar San AndrÃ©s, alquiler apartamento San AndrÃ©s" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 
